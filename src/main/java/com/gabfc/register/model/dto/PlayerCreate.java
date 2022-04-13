@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class PlayerCreate {
+
     private String name;
     private Double height;
     private Double weight;
